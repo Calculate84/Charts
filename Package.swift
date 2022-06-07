@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Charts-SPM",
+    name: "ChartsSPM",
     platforms: [
           .iOS(.v9),
           .tvOS(.v9),
@@ -11,11 +11,11 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "Charts-SPM",
-            targets: ["Charts-SPM"]),
+            name: "ChartsSPM",
+            targets: ["ChartsSPM"]),
     ],
     targets: [
-        .target(name: "Charts-SPM")
+        .target(name: "ChartsSPM")
     ],
     swiftLanguageVersions: [.v5]
 )
